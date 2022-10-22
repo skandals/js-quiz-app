@@ -1,0 +1,233 @@
+body {
+    padding:0;
+    margin:0;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+::selection {
+    background-color: rgb(0, 157, 255);
+    color:white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    width: 100%;
+    line-height: 70px;
+    background-color: rgb(0, 106, 206); 
+    display:grid;
+}
+
+.container-fluid {
+    width: 100%;
+    position: relative;
+}
+
+.logo {
+    color:white;
+    font-size: x-large;
+    margin-inline:10px;
+    float: left;
+}
+
+.menu {
+    line-height: 75px;
+}
+
+.right {
+    float: right;
+    font-size: medium;
+}
+
+.info {
+    color:white;
+    margin-inline: 20px
+}
+
+.container {
+    margin-inline: 2em;
+    margin-block: 1em;
+}
+
+.center {
+    text-align:center;
+}
+
+.text-sm {
+    font-size: small;
+}
+
+.text-md {
+    font-size: medium;
+}
+
+.text-lg {
+    font-size: large;
+}
+
+.text-xl {
+    font-size: x-large;
+}
+
+.text-xxl {
+    font-size: xx-large;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(50px, 1fr);
+}
+
+.col-1 {
+    grid-column: span 1;
+}
+
+.col-2 {
+    grid-column: span 2;
+}
+
+.col-3 {
+    grid-column: span 3;
+}
+
+.col-4 {
+    grid-column: span 4;
+}
+
+.col-5 {
+    grid-column: span 5;
+}
+
+.col-6 {
+    grid-column: span 6;
+}
+
+.col-7 {
+    grid-column: span 7;
+}
+
+.col-8 {
+    grid-column: span 8;
+}
+
+.col-9 {
+    grid-column: span 9;
+}
+
+.col-10 {
+    grid-column: span 10;
+}
+
+.col-11 {
+    grid-column: span 11;
+}
+
+.col-12 {
+    grid-column: span 12;
+}
+
+.gap-1 {
+    gap: 0.25em;
+}
+
+.gap-2 {
+    gap: 0.5em;
+}
+
+.gap-3 {
+    gap: 1em;
+}
+
+.gap-4 {
+    gap: 1.5em;
+}
+
+.gap-5 {
+    gap: 3em;
+}
+
+.red {
+    background:rgb(255, 8, 8);
+}
+
+.blue {
+    background-color: rgb(0, 99, 230);
+}
+
+.green {
+    background: rgb(0, 124, 0);
+}
+
+.orange {
+    background: rgb(228,99, 0);
+}
+
+.yelow {
+    background: rgb(209, 209, 0);
+}
+
+.gray {
+    background: gray;
+}
+
+.darkgray {
+    background: rgb(90, 90, 90);
+}
+
+.ans_btn {
+
+    height: 120px;
+    color:white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    font-size: large;
+
+}
+
+.btn {
+    padding:20px;
+    color:white;
+    border:none;
+    outline:none;
+    display: inline-grid;
+    cursor: pointer;
+}
+
+.correct_answer {
+    background: rgb(0, 124, 0) !important;
+}
+
+.wrong_answer {
+    background: rgb(255, 8, 8) !important;
+}
+
+button:disabled {
+    color: rgb(71, 71, 71);
+    background-color: darkgray;
+    cursor: default;
+}
+
+.ans_btn:disabled {
+    background: rgb(80, 80, 80);
+    color:whitesmoke;
+    cursor: default;
+    transition: background .3s ease;
+}
+
+a { 
+    display: inline-block;
+    text-decoration: none;
+}
+
+.prev-btn {
+    display: none;
+}
